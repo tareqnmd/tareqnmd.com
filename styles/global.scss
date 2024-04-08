@@ -4,7 +4,7 @@
 
 .app-content {
 	@apply bg-[#ffffff] min-h-screen grid text-[#0f172a] dark:bg-[#0f172a] dark:text-[#ffffff];
-	grid-template-rows: auto 1fr;
+	grid-template-rows: auto 1fr auto;
 }
 .page-content {
 	@apply container;
