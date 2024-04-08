@@ -1,4 +1,5 @@
 import { Toaster } from '@/components/ui/sonner';
+import Navbar from '../shared/Navbar';
 import StoreProvider from './StoreProvider';
 import ThemeProvider from './ThemeProvider';
 
@@ -11,7 +12,10 @@ const RootProvider = ({ children }: { children: React.ReactNode }) => {
 			disableTransitionOnChange
 		>
 			<StoreProvider>
-				<div id="organizer">{children}</div>
+				<main className="app-content">
+					<Navbar />
+					<div className="page-content">{children}</div>
+				</main>
 				<Toaster />
 			</StoreProvider>
 		</ThemeProvider>

@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-const UnderConstruction = () => {
+const Home = () => {
 	return (
-		<div className="h-screen grid place-content-center">
-			<div className="grid gap-1">
+		<div className="h-full grid place-content-center">
+			<div className="h-full grid gap-1">
 				<h3>
 					The site is currently under construction, but it will be relaunching
 					soon.
@@ -21,4 +21,4 @@ const UnderConstruction = () => {
 	);
 };
 
-export default UnderConstruction;
+export default Home;

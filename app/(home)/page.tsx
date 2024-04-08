@@ -1,7 +1,7 @@
-import UnderConstruction from '@/components/UnderConstruction';
+import Home from '@/components/home/Home';
 
 const page = () => {
-	return <UnderConstruction />;
+	return <Home />;
 };
 
 export default page;
