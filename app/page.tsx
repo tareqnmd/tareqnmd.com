@@ -1,5 +1,7 @@
+import UnderConstruction from '@/components/UnderConstruction';
+
 const page = () => {
-	return <>Md Tareq</>;
+	return <UnderConstruction />;
 };
 
 export default page;
