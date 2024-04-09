@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 .app-content {
-	@apply bg-primary min-h-screen grid text-secondary dark:bg-secondary dark:text-primary;
+	@apply bg-primary min-h-dvh grid text-secondary dark:bg-secondary dark:text-primary;
 	grid-template-rows: auto 1fr auto;
 }
 .page-content {
