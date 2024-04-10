@@ -2,11 +2,17 @@ import Link from 'next/link';
 
 const NotFound = () => {
 	return (
-		<div>
-			<h2>Not Found</h2>
-			<p>Could not find requested resource</p>
-			<Link href="/">Return Home</Link>
-		</div>
+		<main className="app-screen grid place-items-center">
+			<div className="text-center">
+				<h2>Page Not Found !!</h2>
+				<Link
+					className="underline"
+					href="/"
+				>
+					Home
+				</Link>
+			</div>
+		</main>
 	);
 };
 export default NotFound;

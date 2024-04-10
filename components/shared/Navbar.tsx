@@ -4,15 +4,10 @@ import ModeToggle from './ModeToggle';
 
 const Navbar = () => {
 	return (
-		<nav className="container flex items-center gap-4 lg:gap-6 justify-between py-4 lg:py-8">
-			<Logo />
-			<Link
-				className="ml-auto"
-				href="/about"
-			>
-				about
+		<nav className="container flex items-center justify-between py-4 lg:py-8">
+			<Link href="/">
+				<Logo />
 			</Link>
-			<Link href="/blogs">blogs</Link>
 			<ModeToggle />
 		</nav>
 	);

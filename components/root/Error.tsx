@@ -13,10 +13,17 @@ const Error = ({
 	}, [error]);
 
 	return (
-		<div>
-			<h2>Something went wrong!</h2>
-			<button onClick={() => reset()}>Try again</button>
-		</div>
+		<main className="app-screen grid place-items-center">
+			<div className="text-center">
+				<h2 className="">Something went wrong !!!</h2>
+				<button
+					className="underline"
+					onClick={() => reset()}
+				>
+					Try again
+				</button>
+			</div>
+		</main>
 	);
 };
 export default Error;
