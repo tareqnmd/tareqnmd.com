@@ -2,10 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.app-content {
-	@apply bg-primary min-h-dvh grid text-secondary dark:bg-secondary dark:text-primary;
-	grid-template-rows: auto 1fr auto;
+.app-screen {
+	@apply bg-primary min-h-dvh text-secondary dark:bg-secondary dark:text-primary;
 }
-.page-content {
-	@apply container;
+.page-screen {
+	@apply grid place-items-center;
+	grid-template-rows: auto 1fr auto;
 }

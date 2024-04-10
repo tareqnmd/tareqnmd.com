@@ -15,7 +15,7 @@ const ModeToggle = () => {
 
 	return theme === 'dark' ? (
 		<Button
-			className="!bg-transparent "
+			className="!bg-transparent w-auto h-auto"
 			size="icon"
 			onClick={() => setTheme('light')}
 		>
@@ -23,7 +23,7 @@ const ModeToggle = () => {
 		</Button>
 	) : (
 		<Button
-			className="!bg-transparent"
+			className="!bg-transparent w-auto h-auto"
 			size="icon"
 			onClick={() => setTheme('dark')}
 		>
