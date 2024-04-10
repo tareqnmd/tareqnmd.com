@@ -2,11 +2,11 @@ import RootProvider from '@/components/providers/RootProvider';
 import { cn } from '@/lib/utils';
 import '@/styles/global.scss';
 import type { Metadata } from 'next';
-import { Poppins as FontSans } from 'next/font/google';
+import { Tilt_Neon as FontSans } from 'next/font/google';
 
 export const fontSans = FontSans({
+	weight: ['400'],
 	subsets: ['latin'],
-	weight: '400',
 });
 
 export const metadata: Metadata = {
