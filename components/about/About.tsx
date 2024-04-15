@@ -1,4 +1,6 @@
-const About = () => {
+type AboutType = {};
+
+const About = ({ about }: { about: AboutType }) => {
 	return <div></div>;
 };
 
